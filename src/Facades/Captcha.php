@@ -3,6 +3,7 @@
 namespace Illusionist\Captcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Illusionist\Captcha\CaptchaManager;
 
 /**
  * @method static \Illusionist\Captcha\Contracts\Captcha driver(string $name = null)
