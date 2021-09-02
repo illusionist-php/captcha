@@ -27,7 +27,7 @@ class CaptchaServiceProvider extends ServiceProvider
 
         if (! $this->isLumen() && $this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/config/captcha.php' => config_path('captcha.php'),
+                __DIR__.'/../config/captcha.php' => config_path('captcha.php'),
             ]);
         }
     }
